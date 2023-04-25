@@ -1,0 +1,49 @@
+:root{
+    --primary-color:#fff;
+    --text-color:#464040;
+}
+*{
+    margin: 0;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.element-list{
+    list-style: none;
+    padding-left: 0;
+}
+.href-a{
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+.btn{
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 50%;
+    
+}
+.btn-out-line{
+    background: transparent;
+    padding: 8px 24px;
+    color: var(--text-color);
+}
+.btn-none-out-line{
+    border: none;
+    padding: 8px 24px;
+    color: var(--text-color);
+    border-color: var(--primary-color);
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+
+}
