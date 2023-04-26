@@ -70,9 +70,56 @@
 /* MAIN */
 /* FOOTER */
 .footer-wrapper{
+    margin-top: 20px;
     width: 100%;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100px;
+    position: relative;
+
 }
 .inner-footer{
-    background-color: red;
+    width: 100%;
+    position: absolute;
+    top: 26%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.footer-left{
+
+}
+.footer-left-btn-grouph{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-link-text{
+    padding: 8px 8px;
+}
+.footer-link-text{
+
+}
+.footer-link-text{
+
+}
+.footer-right{
+
+}
+.footer-right-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.name-idx-team{
+    color: rgb(4, 255, 0);
+    font-weight: 400;
+}
+.footer-right-link-text{
+    text-decoration: none;
+}
+.footer-right-link-text:hover{
+    cursor: pointer;
+    opacity: 50%;
 }
