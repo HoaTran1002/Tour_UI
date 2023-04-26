@@ -22,18 +22,25 @@
     display: flex;
     justify-content: center;
     position: relative;
+    
 }
 .navbar-btn-drop-item{
-    margin-right: 3px;
+    margin-right: 6px;
+    box-sizing: border-box;
     
    
 }
+<<<<<<< HEAD:assets/css/index.css
 .navbar-btn-drop-item:hover .navbar-icon-drop{
     display: none ;
 }
 
+=======
+.navbar-btn-drop-item:hover 
+>>>>>>> b25bab5 (header):css/index.css
 .element-item{
-    margin-right: 3px;
+    margin-right: 8px;
+    
 }
 .Manager1:hover .fake-list-1{
     display: block;
@@ -47,9 +54,7 @@
 .Manager4:hover .fake-list-4{
     display: block;
 }
-.navbar-right{
 
-}
 
 
 
@@ -81,7 +86,7 @@
     position: absolute;
     min-width: 40px;
     min-height: 60px;
-    top: 85%;
+    top: 88%;
     width: 74%;
     background-color: #369933cb;
     z-index: 1;
@@ -92,7 +97,7 @@
     position: absolute;
     width: 5px;
     height: 3px;
-    top: 7%;
+    top: 6%;
     margin-top: -6px;
     left: 84px;
     border: solid 8px transparent;
@@ -108,6 +113,26 @@
     opacity: 50%;
     cursor: pointer;
     background-color: #fff;
+}
+.background-login-image{
+   width: 45px;
+   height: 45px;
+   background-size: cover;
+   border-radius: 50%;
+}
+.background-login-image:hover{
+    cursor: pointer;
+}
+.backgropund-login-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* MAIN */
 .main__content{
