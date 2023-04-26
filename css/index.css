@@ -28,6 +28,9 @@
     
    
 }
+.navbar-btn-drop-item:hover .navbar-icon-drop{
+    display: none ;
+}
 .element-item{
     margin-right: 3px;
 }
@@ -72,18 +75,32 @@
    
     
 }
+
 .fake-list{
     position: absolute;
     min-width: 40px;
     min-height: 60px;
-    top: 90%;
+    top: 85%;
     width: 74%;
     background-color: #369933cb;
+    z-index: 1;
     display: none;
+}
+.fake-list::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    top: 7%;
+    margin-top: -6px;
+    left: 84px;
+    border: solid 8px transparent;
+    border-top-color: #FFF;
+    z-index: 1;
 }
 .select-item{
     width: 100%;
-   
+    padding: 2px;
   
 }
 .select-item:hover{

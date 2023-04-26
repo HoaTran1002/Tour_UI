@@ -25,7 +25,7 @@ body {
 }
 .btn{
     padding: 8px 24px;
-   
+    box-sizing: border-box;
 }
 .btn:hover{
     cursor: pointer;
