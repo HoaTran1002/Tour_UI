@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DashBoard</title>
+    <!-- ICON WED TOUR UI  -->
+    <link rel="shortcut icon" href="./img/icon.png">
+
+    <!-- ICON FONTAWESOME CDN -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css"  rel="stylesheet" type="text/css"/>
+
+    <!-- STYLE CSS COMPONENT -->
+    <link rel="stylesheet" href="./css/grid_system.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- FONT FAMILY THIS WEB -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/grid_system.css">
-    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css"  rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="./css/index.css">
+    <!-- TITLE WEBSITE -->
+    <title>Tour IDX </title>
 
 </head>
 <body>
@@ -72,7 +82,6 @@
                         </ul>
                     </div>
                     <div class="navbar-right">
-                        
                         <div >
                             <a href="#">LOGOUT</a>
                         </div>
@@ -86,9 +95,163 @@
             </div>
         </nav>
     </header>
-    <main class="container main-container">
-        <div>
-            
+    <main class="container ">
+        <div class="main__content">
+            <div class="row">
+                <h1 class="main__content--title">Danh sách các tour</h1>
+            </div>
+            <div class="row">
+                <div class="main__content--filter-group">
+                    <input id="filter-date" type="checkbox" hidden>
+                    <label for="filter-date">Theo tháng</label>
+                    <div class="main__content--filter">
+                        <div class="content__filter--group">
+                            <label for="filter-domestic" class="content__filter-title">Tháng hiện tại</label>
+                            <input type="checkbox" name="domestic" id="filter-domestic">
+                        </div>
+                        <div class="content__filter--group">
+                            <label class="content__filter-title">Ngày</label>
+                            <select name="" id="">
+                                <option name="" id="">-- chọn ngày --</option>
+                                <option name="" id="">1</option>
+                                <option name="" id="">2</option>
+                                <option name="" id="">3</option>
+                                <option name="" id="">...</option>
+                            </select>
+                        </div>
+                        <div class="content__filter--group">
+                            <label class="content__filter-title">Tháng</label>
+                            <select name="" id="">
+                                <option name="" id="">-- chọn tháng --</option>
+                                <option name="" id="">1</option>
+                                <option name="" id="">2</option>
+                                <option name="" id="">3</option>
+                                <option name="" id="">...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content--filter">
+                    <div class="content__filter--group">
+                        <label for="filter-domestic" class="content__filter-title">Tour trong nước</label>
+                        <input type="checkbox" name="domestic" id="filter-domestic">
+                    </div>
+                    <div class="content__filter--group">
+                        <label for="filter-foreign" class="content__filter-title">Tour ngoài nước</label>
+                        <input type="checkbox" name="foreign" id="filter-foreign">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table__show">
+                    <thead class="table__show--heading">
+                        <td class="table__line--item" >STT</td>
+                        <td class="table__line--item" >Lộ trình</td>
+                        <td class="table__line--item" >Thời gian</td>
+                        <td class="table__line--item" >Bắt đầu ngày</td>
+                        <td class="table__line--item" >Kết thúc ngày</td>
+                        <td class="table__line--item" >Hãng hàng không</td>
+                        <td class="table__line--item" >Sô lượng khách đã đặt</td>
+                        <td class="table__line--item" >Số lượng khách tối đa </td>
+                        <td class="table__line--item" >Giá tour</td>
+                    </thead>
+                    <tbody class="table__show--body">
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">1</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="">
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__line--item">2</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietnamairlines.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="">
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table__line--item">3</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="">
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="page__pagination">
+                    <ul class="page__pagination--list">
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                <i class="fa-light fa-caret-left"></i>
+                            </a>
+                        </li>
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                1
+                            </a>
+                        </li>
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                2
+                            </a>
+                        </li>
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                3
+                            </a>
+                        </li>
+                        <li class="page__pagination--item">
+                            ...
+                        </li>
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                6
+                            </a>
+                        </li>
+                        <li class="page__pagination--item">
+                            <a href="" class="pagination__item--link">
+                                <i class="fa-light fa-caret-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer-wrapper">
