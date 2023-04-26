@@ -28,6 +28,21 @@
     
    
 }
+.element-item{
+    margin-right: 3px;
+}
+.Manager1:hover .fake-list-1{
+    display: block;
+}
+.Manager2:hover .fake-list-2{
+    display: block;
+}
+.Manager3:hover .fake-list-3{
+    display: block;
+}
+.Manager4:hover .fake-list-4{
+    display: block;
+}
 .navbar-right{
 
 }
@@ -36,36 +51,45 @@
 
 .fake-list-1{
     display: none;
-
     top: 32px;
-    left: 11%;
-    width: autoß;
+    left: 0;
+    width: 100%;
+    
 }
 .fake-list-2{
     top: 32px;
-    background-color: yellow;
-    display: none;
+   
 }
 .fake-list-3{
     top: 30px;
-    right: 6%;
-    background-color: red;
-    display: none;
+    
+    left: 50%;
+   
+}
+.fake-list-4{
+    top: 30px;
+    left: 75%;
+   
+    
 }
 .fake-list{
     position: absolute;
     min-width: 40px;
     min-height: 60px;
-    z-index: 1;
+    top: 90%;
     width: 74%;
+    background-color: #369933cb;
+    display: none;
 }
 .select-item{
     width: 100%;
-
+   
+  
 }
 .select-item:hover{
     opacity: 50%;
     cursor: pointer;
+    background-color: #fff;
 }
 /* MAIN */
 /* FOOTER */
