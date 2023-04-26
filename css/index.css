@@ -30,14 +30,9 @@
     
    
 }
-<<<<<<< HEAD:assets/css/index.css
 .navbar-btn-drop-item:hover .navbar-icon-drop{
     display: none ;
 }
-
-=======
-.navbar-btn-drop-item:hover 
->>>>>>> b25bab5 (header):css/index.css
 .element-item{
     margin-right: 8px;
     
@@ -135,101 +130,6 @@
     align-items: center;
 }
 /* MAIN */
-.main__content{
-
-}
-.main__content--title{
-    font-size: 30px;
-    margin: 20px 8px;
-
-    font-weight: bold;
-}
-.main__content--filter{
-    display: flex;
-    padding-left: 50px;
-    gap: 20px;
-}
-.content__filter--group{
-    display: flex;
-    align-items: center;  
-}
-.content__filter-title{
-    font-weight: 600;
-}
-.content__tour--item{
-    position: relative;
-    border:1px solid #ccc;
-    padding: 8px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    overflow: hidden;
-}
-.tour__item--glass-bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:white;
-    z-index: 0;
-}
-.tour__item--glass{
-    position: absolute;
-    background-color:red; 
-}
-.content__tour--img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 100%;
-    border-radius: 5px;
-}
-.content__tour--info{
-    display: flex;
-    flex-direction: column;
-}
-.tour__info--name{
-    color: blue;
-    font-weight: 700px;
-    font-size: 20px;
-    padding: 10px 0;
-}
-.tour__info--time{
-
-}
-.time{
-    color:red;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-}
-.tour__info--flight_state{
-    display: flex;
-    align-items: center;  
-    justify-content: space-between;
-}
-.tour__info--flight{
-
-}
-.info__flight--brand{
-    width: 100px;
-    height: 25px;
-}
-.tour__info--price{
-    color:red;
-    font-size: 21px;
-    font-weight: 700;
-    padding: 10px 0;
-}
-.tour__info--state{
-
-}
-.present{
-
-}
-.maximum{
-
-}
-
 /* FOOTER */
 .footer-wrapper{
     margin-top: 20px;

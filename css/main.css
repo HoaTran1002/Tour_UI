@@ -1,5 +1,8 @@
 :root{
     --primary-color:#fff;
+    --text-color:#464040;
+    --bg-white:white;
+    --sidebar-left-width:350px;
     --text-color:black;
 }
 /* background-color */
@@ -13,6 +16,7 @@
     margin: 0;
 }
 body {
+    box-sizing: border-box;
     font-family: 'Roboto';
     font-size: 18px;
 }
