@@ -1,11 +1,17 @@
 :root{
     --primary-color:#fff;
+<<<<<<< HEAD
+    --secondary-color:#15a599;
+    --secondary-color-blur:#b7e3df;
+    --secondary-color-button-no-hover:#e7faf8;
+    --text-color:#615e5e;
+=======
     --primary-secondary-color:#15a599f7;
     --text-color:#464040;
+>>>>>>> 84b25a90b55fe4ddc52ce269ef9ef7dd775d9188
     --bg-white:white;
     --sidebar-left-width:350px;
     --text-color:black;
-    --color-blue:rgb(52, 82, 231);
 }
 /* background-color */
 .bg-color-green-opacity{
@@ -14,6 +20,10 @@
 /* color */
 .color-white{
     color: white;
+}
+
+.color-seconndary{
+    color: var(--secondary-color);
 }
 *{
     margin: 0;

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ICON WED TOUR UI  -->
-    <link rel="shortcut icon" href="./img/icon.png">
+    <link rel="shortcut icon" href="./assets/img/icon.png">
 
     <!-- ICON FONTAWESOME CDN -->
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css"  rel="stylesheet" type="text/css"/>
@@ -19,7 +19,7 @@
     <!-- FONT FAMILY THIS WEB -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- TITLE WEBSITE -->
     <title>Tour IDX </title>
@@ -139,16 +139,23 @@
             <div class="row">
                 <table class="table__show">
                     <thead class="table__show--heading">
-                        <td class="table__line--item" >STT</td>
-                        <td class="table__line--item" >Lộ trình</td>
-                        <td class="table__line--item" >Thời gian</td>
-                        <td class="table__line--item" >Bắt đầu ngày</td>
-                        <td class="table__line--item" >Kết thúc ngày</td>
-                        <td class="table__line--item" >Hãng hàng không</td>
-                        <td class="table__line--item" >Sô lượng khách đã đặt</td>
-                        <td class="table__line--item" >Số lượng khách tối đa </td>
-                        <td class="table__line--item" >Giá tour</td>
+                        <tr class="show__heading--line">
+                            <td class="table__line--item" >
+                                <!-- <FontAwesomeIcon icon="fa-sharp fa-regular fa-list-ol" /> -->
+                                <i class="fa-sharp fa-regular fa-list-ol table__line--item-icon"></i>
+                            </td>
+                            <td class="table__line--item" >Lộ trình</td>
+                            <td class="table__line--item" >Thời gian</td>
+                            <td class="table__line--item" >Bắt đầu ngày</td>
+                            <td class="table__line--item" >Kết thúc ngày</td>
+                            <td class="table__line--item" >Hãng hàng không</td>
+                            <td class="table__line--item" >khách đã đặt</td>
+                            <td class="table__line--item" >khách tối đa </td>
+                            <td class="table__line--item" >Giá tour</td>
+                            <td class="table__line--item" ></td>
+                        </tr>
                     </thead>
+                    
                     <tbody class="table__show--body">
                         <tr class="tabel__body--line">
                             <td class="table__line--item">1</td>
@@ -163,12 +170,14 @@
                             <td class="table__line--item">50</td>
                             <td class="table__line--item">22.900.000 vnd</td>
                             <td class="table__line--item">
-                                <a href="">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
                                     Chi tiết
                                 </a>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tabel__body--line">
                             <td class="table__line--item">2</td>
                             <td class="table__line--item">Hà Nội - Osaka</td>
                             <td class="table__line--item">4 ngày 3 đêm</td>
@@ -181,12 +190,14 @@
                             <td class="table__line--item">50</td>
                             <td class="table__line--item">22.900.000 vnd</td>
                             <td class="table__line--item">
-                                <a href="">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
                                     Chi tiết
                                 </a>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tabel__body--line">
                             <td class="table__line--item">3</td>
                             <td class="table__line--item">Hà Nội - Osaka</td>
                             <td class="table__line--item">4 ngày 3 đêm</td>
@@ -199,11 +210,133 @@
                             <td class="table__line--item">50</td>
                             <td class="table__line--item">22.900.000 vnd</td>
                             <td class="table__line--item">
-                                <a href="">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr >
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">1</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
                                     Chi tiết
                                 </a>
                             </td>
                         </tr>
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">2</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietnamairlines.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">3</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr >
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">1</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">2</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietnamairlines.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="tabel__body--line">
+                            <td class="table__line--item">3</td>
+                            <td class="table__line--item">Hà Nội - Osaka</td>
+                            <td class="table__line--item">4 ngày 3 đêm</td>
+                            <td class="table__line--item">12/06/2023</td>
+                            <td class="table__line--item">16/06/2023</td>
+                            <td class="table__line--item">
+                                <img src="./assets/img/vietject-air.png" alt="" class="show__item--img">
+                            </td>
+                            <td class="table__line--item">25</td>
+                            <td class="table__line--item">50</td>
+                            <td class="table__line--item">22.900.000 vnd</td>
+                            <td class="table__line--item">
+                                <a href="#" class="table__line--item-link">
+                                    <i class="fa-thin fa-square-info"></i>
+                                    <!-- <FontAwesomeIcon icon="fa-thin fa-square-info" /> -->
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr >
                     </tbody>
                 </table>
             </div>
@@ -211,22 +344,22 @@
                 <div class="page__pagination">
                     <ul class="page__pagination--list">
                         <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
-                                <i class="fa-light fa-caret-left"></i>
+                            <a href="#" class="pagination__item--link">
+                                <i class="fa-light fa-caret-left item__link--icon"></i>
                             </a>
                         </li>
-                        <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
+                        <li class="page__pagination--item active">
+                            <a href="#" class="pagination__item--link">
                                 1
                             </a>
                         </li>
                         <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
+                            <a href="#" class="pagination__item--link">
                                 2
                             </a>
                         </li>
                         <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
+                            <a href="#" class="pagination__item--link">
                                 3
                             </a>
                         </li>
@@ -234,12 +367,12 @@
                             ...
                         </li>
                         <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
+                            <a href="#" class="pagination__item--link">
                                 6
                             </a>
                         </li>
                         <li class="page__pagination--item">
-                            <a href="" class="pagination__item--link">
+                            <a href="#" class="pagination__item--link">
                                 <i class="fa-light fa-caret-right"></i>
                             </a>
                         </li>
