@@ -1,9 +1,6 @@
 :root{
     --primary-color:#fff;
-    --secondary-color:#15a599;
-    --secondary-color-blur:#b7e3df;
-    --secondary-color-button-no-hover:#e7faf8;
-    --text-color:#615e5e;
+    --text-color:#464040;
     --bg-white:white;
     --sidebar-left-width:350px;
 }
@@ -11,6 +8,7 @@
 .bg-color-green-opacity{
     background-color: #15a599f7;
 }
+/* color */
 .color-white{
     color: white;
 }
@@ -40,6 +38,7 @@ body {
     cursor: pointer;
     opacity: 20%;
 }
+/* button styles */
 .btn{
     padding: 8px 24px;
     width: 150px;
@@ -48,7 +47,7 @@ body {
 }
 .btn:hover{
     cursor: pointer;
-    opacity: 50%;
+    opacity: 75%;
     
 }
 .btn-out-line{
@@ -64,6 +63,11 @@ body {
     padding: 8px 24px;
     border-color: var(--primary-color);
 }
+.btn-small{
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+}
 ul{
     list-style: none;
     padding-left: 0;
@@ -72,3 +76,30 @@ ul{
 li{
 
 }
+/* ANIMATION */
+
+/* hover underline */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    font-family: sans-serif;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

@@ -1,0 +1,83 @@
+.main-wrapper{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px; */
+
+}
+.content-nav-tool{
+    top: 4%;
+    left: 2%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--primary-secondary-color);
+    font-size: 16px;
+    border-radius: 8px;
+    width: auto;
+    height: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+    z-index: 1;
+}
+.content-nav-tool-data{
+   
+    border-radius: 8px;
+    margin: 0 3px;
+}
+.content-nav-tool-icon{
+    margin: 0 4px;
+}
+.content-title{
+    color: #fff;
+    font-weight: 400;
+    top: -5.5%;
+    position: absolute;
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+.styled-table {
+    border: 1px solid #ddd;
+    min-height: 200px;
+    width: 100%;
+    border-collapse: collapse;
+    display: grid;
+    
+    grid-gap: 1px; /* khoảng cách giữa các ô */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.style-table-head {
+    font-size: 16px;
+    background-color: #0077b6;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 10%;
+  }
+  
+  .table-data {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    width: 10%;
+  }
