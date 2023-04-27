@@ -1,9 +1,11 @@
 :root{
     --primary-color:#fff;
-    --text-color:#464040;
+    --secondary-color:#15a599;
+    --secondary-color-blur:#b7e3df;
+    --secondary-color-button-no-hover:#e7faf8;
+    --text-color:#615e5e;
     --bg-white:white;
     --sidebar-left-width:350px;
-    --text-color:black;
 }
 /* background-color */
 .bg-color-green-opacity{
@@ -11,6 +13,10 @@
 }
 .color-white{
     color: white;
+}
+
+.color-seconndary{
+    color: var(--secondary-color);
 }
 *{
     margin: 0;
