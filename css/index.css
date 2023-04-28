@@ -55,7 +55,7 @@
 
 
 .fake-list-1{
-    display: none;
+
     top: 32px;
     left: 0;
     width: 100%;
@@ -82,7 +82,7 @@
     position: absolute;
     min-width: 40px;
     min-height: 60px;
-    top: 88%;
+    top: 98%;
     width: 74%;
     background-color: #15a59994;
     z-index: 1;
@@ -93,7 +93,7 @@
     position: absolute;
     width: 5px;
     height: 3px;
-    top: 6%;
+    top: 8%;
     margin-top: -6px;
     left: 84px;
     border: solid 8px transparent;
@@ -188,6 +188,10 @@
     width: 100px;
     height: 25px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9641c769918cc0b18c66ce9c437f2ef579f59a50
 .table__line--item-link{
     display: flex;
     gap: 5px;
@@ -216,10 +220,22 @@
     align-items: center;
     justify-content: center;
     margin: 30px;
+<<<<<<< HEAD
+=======
+}
+/* Pagination */
+.page__pagination{
+    margin-left: 16px;
+
+>>>>>>> 9641c769918cc0b18c66ce9c437f2ef579f59a50
 }
 .page__pagination--list{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9641c769918cc0b18c66ce9c437f2ef579f59a50
     gap: 15px;
 }
 .page__pagination--item{
@@ -231,6 +247,12 @@
 }
 .page__pagination--item.active .pagination__item--link{
     color: white;
+<<<<<<< HEAD
+=======
+
+    gap: 10px;
+
+>>>>>>> 9641c769918cc0b18c66ce9c437f2ef579f59a50
 }
 .pagination__item--link{
     padding: 4px 10px;

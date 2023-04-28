@@ -1,11 +1,17 @@
 :root{
     --primary-color:#fff;
+<<<<<<< HEAD
     --secondary-color:#15a599;
     --secondary-color-blur:#b7e3df;
     --secondary-color-button-no-hover:#e7faf8;
     --text-color:#615e5e;
+=======
+    --primary-secondary-color:#15a599f7;
+    --text-color:#464040;
+>>>>>>> 84b25a90b55fe4ddc52ce269ef9ef7dd775d9188
     --bg-white:white;
     --sidebar-left-width:350px;
+    --text-color:black;
 }
 /* background-color */
 .bg-color-green-opacity{
@@ -25,7 +31,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .element-list{
@@ -39,7 +45,8 @@ body {
 }
 .href-a:hover{
     cursor: pointer;
-    opacity: 20%;
+ 
+    color: #fff;
 }
 /* button styles */
 .btn{
@@ -51,6 +58,19 @@ body {
 .btn:hover{
     cursor: pointer;
     opacity: 75%;
+    
+}
+.btn-auto{
+    padding: 8px 24px;
+    box-sizing: border-box;
+    border: 1px solid var(--primary-secondary-color);
+    border-radius: 4px;
+}
+.btn-auto:hover{
+    color: #fff;
+    cursor: pointer;
+    opacity: 75%;
+    background-color: var(--primary-secondary-color);
     
 }
 .btn-out-line{
@@ -70,6 +90,20 @@ body {
     width: auto;
     height: auto;
     border: 1px solid red;
+}
+.btn-nav-input-check{
+    padding: 8px 24px;
+    width: 155px;
+    box-sizing: border-box;
+    
+}
+.btn-nav-input-check:hover{
+    cursor: pointer;
+    opacity: 75%;
+    
+}
+.label-input:hover{
+    cursor: pointer;
 }
 ul{
     list-style: none;
