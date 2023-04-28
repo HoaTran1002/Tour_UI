@@ -3,13 +3,16 @@
     --secondary-color:#15a599;
     --secondary-color-blur:#b7e3df;
     --secondary-color-button-no-hover:#e7faf8;
-    --text-color:#615e5e;
+    --text-color-blur:#615e5e;
     --primary-secondary-color:#15a599f7;
     --text-color:#464040;
     --bg-white:white;
     --sidebar-left-width:350px;
     --text-color:black;
     --color-danger:rgb(250, 74, 74);
+    --color-warn:rgb(255, 179, 0);
+    --color-sussces:rgb(0, 183, 0);
+    --color-gray:#717171;
 }
 /* background-color */
 .bg-color-green-opacity{
@@ -40,6 +43,15 @@
 }
 .color-text{
     color:var(--text-color)
+}
+.color-warn{
+    color: var(--color-warn);
+}
+.color-sussces{
+    color: var(--color-sussces);
+}
+.color-gray{
+    color: var(--color-gray);
 }
 *{
     margin: 0;
@@ -129,7 +141,7 @@ ul{
 li{
 
 }
-/* ANIMATION */
+
 
 /* hover underline */
 .hover-underline-animation {
@@ -632,3 +644,16 @@ li{
     margin-bottom: 48px;
 }
 /* Margin Style End */
+
+/* Animation Style Start */
+@keyframes scrollDown{
+      0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+/* Animation Style End */

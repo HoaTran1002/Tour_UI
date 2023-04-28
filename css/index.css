@@ -1,7 +1,7 @@
 /* HEADER */
 .header-wrapper{
     border-bottom: 1px solid #555;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .navbar-content{
     display: flex;
@@ -257,11 +257,8 @@
 }
 .inner-footer{
     width: 100%;
-    position: absolute;
-    top: 26%;
-    left: 0;
-    right: 0;
-    margin: auto;
+    display: flex;
+    padding: 40px 0;
 }
 .footer-left{
 
