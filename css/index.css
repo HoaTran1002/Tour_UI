@@ -187,6 +187,7 @@
 .show__item--img{
     width: 100px;
     height: 25px;
+    border-radius: 5px;
 }
 .table__line--item-link{
     display: flex;
@@ -207,6 +208,7 @@
     color: white;
     background-color:var(--secondary-color) ;
 }
+
 /* Table Style End */
 
 /* Pagination Style Start*/

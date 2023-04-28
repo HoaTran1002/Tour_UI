@@ -9,10 +9,20 @@
     --bg-white:white;
     --sidebar-left-width:350px;
     --text-color:black;
+    --color-danger:rgb(250, 74, 74);
 }
 /* background-color */
 .bg-color-green-opacity{
     background-color: #15a599f7;
+}
+.bg-color-white{
+    background-color: var(--bg-white);
+}
+.bg-color-secondary-color{
+    background-color: var(--secondary-color);
+}
+.bg-color-secondary-color-blur{
+    background-color: var(--secondary-color-blur);
 }
 /* color */
 .color-white{
@@ -21,6 +31,12 @@
 
 .color-seconndary{
     color: var(--secondary-color);
+}
+.color-danger{
+    color:var(--color-danger);
+}
+.color-text{
+    color:var(--text-color)
 }
 *{
     margin: 0;
@@ -118,9 +134,9 @@ li{
     position: relative;
     color: #0087ca;
     font-family: sans-serif;
-  }
-  
-  .hover-underline-animation::after {
+}
+
+.hover-underline-animation::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -131,9 +147,63 @@ li{
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover::after {
+}
+
+.hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
+/* Block Style Start */
+.flex{
+    display: flex !important;
+}
+.block{
+    display: block !important;
+}
+.b-box{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+}
+.hidden{
+    display: none !important;
+}
+.flex-inline{
+    display: inline-flex !important;
+}
+.f-column{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.f-row{
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.f-center{
+    align-items: center;  
+    justify-content: center;
+}
+/* Block Style End */
+
+/* Font Style Start */
+.text-sm{
+    font-size: 12px;
+}
+.text-md{
+    font-size: 16px;
+}
+.text-lg{
+    font-size: 22px;
+}
+.text-xl{
+    font-size: 25px;
+}
+.text-xxl{
+    font-size: 30px;
+}
+.text-xxxl{
+    font-size: 35px;
+}
+/* Font Style End */
