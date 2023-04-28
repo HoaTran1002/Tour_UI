@@ -188,10 +188,11 @@
     width: 100px;
     height: 25px;
 }
-<<<<<<< HEAD
 .table__line--item-link{
     display: flex;
-    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: var(--secondary-color);
     background-color: var(--secondary-color-button-no-hover);
@@ -215,16 +216,10 @@
     align-items: center;
     justify-content: center;
     margin: 30px;
-=======
-/* Pagination */
-.page__pagination{
-    margin-left: 16px;
->>>>>>> 84b25a90b55fe4ddc52ce269ef9ef7dd775d9188
 }
 .page__pagination--list{
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     gap: 15px;
 }
 .page__pagination--item{
@@ -236,10 +231,6 @@
 }
 .page__pagination--item.active .pagination__item--link{
     color: white;
-=======
-    gap: 10px;
-   
->>>>>>> 84b25a90b55fe4ddc52ce269ef9ef7dd775d9188
 }
 .pagination__item--link{
     padding: 4px 10px;
