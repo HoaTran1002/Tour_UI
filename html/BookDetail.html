@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICON WED TOUR UI  -->
+    <link rel="shortcut icon" href="../assets/img/background_travel.avif">
+
+    <!-- ICON FONTAWESOME CDN -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css"  rel="stylesheet" type="text/css"/>
+
+    <!-- STYLE CSS COMPONENT -->
+    <link rel="stylesheet" href="../css/grid_system.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/book_detail.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- FONT FAMILY THIS WEB -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+
+    <!-- TITLE WEBSITE -->
+    <title>Tour IDX </title>
+
+</head>
+<body>
+    <header class="header-wrapper">
+        <nav>
+            <div class="container ">
+                <div class="navbar-content row">
+                    <div class="navbar-left">
+                        <a class="href-a" href="../DashBoard.html">
+                            <img class="navbar-icon-image" src="../assets/img/background_travel.avif" alt="DashBoard icon">
+                        </a>
+                    </div>
+                    <div class="navbar-center">
+                        <ul class=" element-list navbar-btn-drop-list"> 
+                            <li  class="Manager1 element-item navbar-btn-drop-item ">
+                                <button  id="Manager1" class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Tour Manager   
+                                </button>
+                                <ul class="fake-list fake-list-1 element-list">
+                                    <li class="select-item">Manager list of tour </li>
+                                    <li class="select-item">Manage each tour</li>
+                                    <li class="select-item"><a href="../html/InformationService.html">Quản lý thông tin dịch vụ</a></li>
+                                    <li class="select-item"><a href="../html/BookTickets.html">Theo dõi booking vé</a></li>
+                                </ul>
+                            </li>   
+                            
+                            <li class="Manager2 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn ">
+                                    SalesMan   
+                                </button>
+                                <ul class="fake-list fake-list-2 element-list" >
+                                    <li class="select-item">item2</li>
+                                    <li class="select-item">item2</li>
+                                    <li class="select-item">item2</li>
+                                </ul>
+                            </li>
+                            <li class="Manager3 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Visa 
+                                </button>
+                                <ul class="fake-list fake-list-3 element-list">
+                                    <li class="select-item">item3</li>
+                                    <li class="select-item">item3</li>
+                                    <li class="select-item">item3</li>
+                                </ul>
+                            </li>
+                            <li class="Manager4 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Accountant    
+                                </button>
+                                <ul class="fake-list fake-list-4 element-list">
+                                    <li class="select-item">item4</li>
+                                    <li class="select-item">item4</li>
+                                    <li class="select-item">item4</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right">
+                        <a class="href-a" href="#"><button class="btn">LOGIN</button></a>
+                        <a class="href-a" href="#"><button class="btn">SIGNUP</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container ">
+        <div class="main-wrapper">
+            <div class="title-detail-page">CHI TIẾT THÔNG TIN BOOKING</div>
+            <div class="inner-content-detail row">
+                
+                <div class="col-lg-6 content-detail-block-left ">
+                    <div class="content-detail-block-1 ">
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputName">Số chỗ cfm</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputName" >30</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputNumberCustomers">Đối tác vé</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputNumberCustomers" >HLB</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Mã đặt chỗ</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >AUFYLZ</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputActualCosts">Mã đoàn</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputActualCosts" >Đoàn riêng Guide Cường</textarea>
+                        </div>
+                    </div>
+                    <div class="content-detail-block-2">
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputVehicleType">Hành trình</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputVehicleType" >VN30 16DEC 23JAN HANKIT 0040 0640</textarea>
+                            <textarea type="text" class="form-control-input" id="InputVehicleType" >VN30 16DEC 23JAN HANKIT 0040 0640</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputVehicleType">Giá vé</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputVehicleType" >705</textarea>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-lg-6 content-detail-block-right">
+                    <div class="content-form-grouph">
+                        <div class="form-grouph-content-title">
+                            <label class="form-grouph-content-detail-label" for="InputPay">Ngày</label>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Lần 1</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >17Nov2022</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Lần 2</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >17Nov2022</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Lần 3</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >17Nov2022</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Tổng tiền</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >729,396,000</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Vào tên</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >17Sep2022</textarea>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">Xuất vé</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >17Sep2022</textarea>
+                        </div>
+                    </div>
+                    <div class="content-form-grouph">
+                        <div class="form-grouph-content-title">
+                            <label class="form-grouph-content-detail-label" for="InputPay">Note</label>
+                        </div>
+                        <div class="form-group-content-detail">
+                            <label class="form-grouph-content-detail-label" for="InputInsurance">TK Thanh toán</label><i class="icon-colon-content-detail fa-solid fa-colon"></i><br></br>
+                            <textarea type="text" class="form-control-input" id="InputInsurance" >TK Cty</textarea>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+               
+            </div>
+            <br>
+            <div class="detail-page-grouph-action">
+                <div class="btn-auto detail-page-action">
+                    <a class="href-a" href="#"><span class="detail-page-action-text">CẬP NHẬT CHỈNH SỬA</span></a>
+                </div>
+                <div class="btn-auto detail-page-action">
+                    <a class="href-a" href="../html/BookTickets.html"><span class="detail-page-action-text">QUAY LẠI DANH SÁCH</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="container ">
+            <div class="inner-footer">
+                <div class="row">
+                    <div class="footer-left col-lg-6 col-sm-6 ">
+                        <div class="footer-left-btn-grouph">
+                           <span class="footer-link-text">
+                                <a class="href-a">AboutUS</a>
+                           </span> 
+                           <span class="footer-link-text">
+                                <a class="href-a">License</a>
+                           </span> 
+                           <span class="footer-link-text">
+                                <a class="href-a">IDX Talent</a>
+                           </span> 
+    
+                        </div>
+                    </div>
+                    <div class="footer-right col-lg-6 col-sm-6 ">
+                        <span class="footer-right-text">
+                            <a class="footer-right-link-text">@2023, made with by <span class="name-idx-team">IDX Talent</span> team</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

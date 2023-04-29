@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/grid_system.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/InformationService.css">
+    <link rel="stylesheet" href="../css/book_tickets.css">
     <link rel="stylesheet" href="../css/responsive.css">
 
     <!-- FONT FAMILY THIS WEB -->
@@ -27,19 +27,12 @@
 
 </head>
 <body>
-    <!-- LOADING PAGE -->
-    <section id="page__loading" class="page__loading">
-        <div class="page__loading--content">
-            <img src="../assets/img/loading-logo.gif" alt="loading-logo" class="page__loading--content-img">
-        </div>
-    </section>
-    <!-- HEADER COMPONENT START  -->
     <header class="header-wrapper">
         <nav>
             <div class="container ">
                 <div class="navbar-content row">
                     <div class="navbar-left">
-                        <a class="href-a" href="#">
+                        <a class="href-a" href="../DashBoard.html">
                             <img class="navbar-icon-image" src="../assets/img/background_travel.avif" alt="DashBoard icon">
                         </a>
                     </div>
@@ -53,7 +46,7 @@
                                     <li class="select-item">Manager list of tour </li>
                                     <li class="select-item">Manage each tour</li>
                                     <li class="select-item"><a href="../html/InformationService.html">Quản lý thông tin dịch vụ</a></li>
-                                    <li class="select-item">Track booking tickets</li>
+                                    <li class="select-item"><a href="../html/BookTickets.html">Theo dõi booking vé</a></li>
                                 </ul>
                             </li>   
                             
@@ -95,179 +88,183 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
-    <!-- HEADER COMPONENT END  -->
     <main class="container ">
         <div class="main-wrapper">
+            <div class="content-title">
+                <span>THEO DÕI BOOKING VÉ <span>VIETNAM AIRLINES</span></span>
+            </div>
             <div class="content-nav-tool">
-                <div class="content-nav-tool-data btn hover-underline-animation">
+                <div class="content-nav-tool-data btn-auto hover-underline-animation">
                    <span>Thêm mới</span><i class="content-nav-tool-icon fa-regular fa-rectangle-history-circle-plus"></i>
                 </div>
 
-                <div class="content-nav-tool-data btn hover-underline-animation ">
+                <div class="content-nav-tool-data btn-auto hover-underline-animation ">
                     <span>Tìm kiếm</span><i class="content-nav-tool-icon fa-regular fa-magnifying-glass"></i>
                 </div>
 
-                <div class="content-nav-tool-data btn hover-underline-animation ">
+                <div class="content-nav-tool-data btn-auto hover-underline-animation ">
                     <span>Theo lịch</span><i class="content-nav-tool-icon fa-regular fa-calendar"></i>
                 </div>
 
-                <div class="content-nav-tool-data btn-nav-input-check hover-underline-animation ">
-                    <input id="TrongNuoc" class="content-nav-tool-icon" type="checkbox"><label class="label-input" for="TrongNuoc">Trong nước</label>
-                </div>
-
-                <div class="content-nav-tool-data btn-nav-input-check hover-underline-animation ">
-                    <input id="NgoaiNuoc" class="content-nav-tool-icon" type="checkbox"><label class="label-input" for="NgoaiNuoc">Ngoài nước</label>
+                <div class="content-nav-tool-data btn-auto hover-underline-animation ">
+                    <span>Hãng hàng không</span><i class="content-nav-tool-icon fa-regular fa-plane-departure"></i>
                 </div>
             </div>
-            <div class="content-title">
-                <span>QUẢN LÝ THÔNG TIN DỊCH VỤ</span>
-            </div>
+            
             <br></br>
             <br></br>
             <table class="styled-table">
                 <thead>
                     <tr class="style-table-row">
-                        <th class="style-table-head">STT</th>
-                        <th class="style-table-head">TÊN ĐOÀN</th>
-                        <th class="style-table-head">SL KHÁCH</th>
-                        <th class="style-table-head">BẢO HIỂM</th>
-                        <th class="style-table-head">THỰC CHI</th>
-                        <th class="style-table-head">LOẠI XE</th>
-                        <th class="style-table-head">GIÁ</th>
+                        <th class="style-table-head">Số chỗ cfm</th>
+                        <th class="style-table-head">Đối tác vé</th>
+                        <th class="style-table-head">Mã đặt chỗ</th>
+                        <th class="style-table-head">Mã đoàn</th>
+                        <th class="style-table-head style-table-head-trip">Hành trình</th>
                         <th class="style-table-head">THỰC HIỆN</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="style-table-row">
-                        <td class="table-data">1</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">30</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
-                        <td class="table-data">2</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">26</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
-                        <td class="table-data">2</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">18</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
-                        <td class="table-data">4</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">16</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
                         <td class="table-data">5</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
                         <td class="table-data">6</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
-                        <td class="table-data">7</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
-                        <td class="table-data">
-                            <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                        <td class="table-data">17</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
                         </td>
-                    </tr>
-                    <tr class="active-row">
-                        <td class="table-data">8</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
-                        </td>
-                    </tr>
-                    <tr class="active-row">
-                        <td class="table-data">9</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
-                        <td class="table-data">
-                            <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
                     <tr class="active-row">
                         <td class="table-data">10</td>
-                        <td class="table-data">1-6/3 6N</td>
-                        <td class="table-data">14+1</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">1,540,190</td>
-                        <td class="table-data">7S</td>
-                        <td class="table-data">900,000</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
                         <td class="table-data">
                             <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
-                            <a href="../html/DetailSevices.html">Xem thêm</a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
+                        </td>
+                    </tr>
+                    <tr class="active-row">
+                        <td class="table-data">19</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
+                        <td class="table-data">
+                            <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
+                        </td>
+                    </tr>
+                    <tr class="active-row">
+                        <td class="table-data">10</td>
+                        <td class="table-data">HLB</td>
+                        <td class="table-data">AUFYLZ</td>
+                        <td class="table-data">Đoàn riêng Guide Cường</td>
+                        <td class="table-data table-data-trip">
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span><br></br>
+                            <span>VN30 16DEC 23JAN HANKIT 0040 0640</span>
+                        </td>
+                        <td class="table-data">
+                            <a href="#"><i class="fa-sharp fa-regular fa-trash"></i></a>
+                            <a href="../html/BookDetail.html">Xem thêm</a>
                         </td>
                     </tr>
 
@@ -284,7 +281,7 @@
                                 <i class="fa-light fa-caret-left"></i>
                             </a>
                         </li>
-                        <li class="page__pagination--item active">
+                        <li class="page__pagination--item">
                             <a href="" class="pagination__item--link">
                                 1
                             </a>
@@ -318,9 +315,9 @@
         </div>
     </main>
     <footer class="footer-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="inner-footer">
+        <div class="container ">
+            <div class="inner-footer">
+                <div class="row">
                     <div class="footer-left col-lg-6 col-sm-6 ">
                         <div class="footer-left-btn-grouph">
                            <span class="footer-link-text">
@@ -331,7 +328,8 @@
                            </span> 
                            <span class="footer-link-text">
                                 <a class="href-a">IDX Talent</a>
-                           </span>
+                           </span> 
+    
                         </div>
                     </div>
                     <div class="footer-right col-lg-6 col-sm-6 ">
@@ -343,6 +341,5 @@
             </div>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
 </body>
 </html>
