@@ -43,6 +43,7 @@
     margin: 0 4px;
 }
 .styled-table{
+    margin-top: -60px;
     border: 1px solid #ddd;
     width: 100%;
     border-collapse: collapse;

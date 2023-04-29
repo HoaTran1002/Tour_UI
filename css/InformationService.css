@@ -34,6 +34,10 @@
     border-radius: 8px;
     margin: 0 3px;
 }
+.content-nav-tool-data-tag-a{
+    color: #0087ca;
+    text-decoration: none;
+}
 .content-nav-tool-icon{
     margin: 0 4px;
 }
