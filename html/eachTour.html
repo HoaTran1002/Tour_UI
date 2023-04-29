@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICON WED TOUR UI  -->
+    <link rel="shortcut icon" href="../assets/img/icon.png">
+
+    <!-- ICON FONTAWESOME CDN -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css"  rel="stylesheet" type="text/css"/>
+
+    <!-- STYLE CSS COMPONENT -->
+    <link rel="stylesheet" href="../css/grid_system.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/eachTour.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- FONT FAMILY THIS WEB -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- TITLE WEBSITE -->
+    <title>Tour IDX </title>
+
+</head>
+<body>
+    <!-- HEADER COMPONENT START  -->
+    <header class="header-wrapper">
+        <nav>
+            <div class="container ">
+                <div class="navbar-content row">
+                    <div class="navbar-left">
+                        <a class="href-a" href="#">
+                            <img class="navbar-icon-image" src="../assets/img/background_travel.avif" alt="DashBoard icon">
+                        </a>
+                    </div>
+                    <div class="navbar-center">
+                        <ul class=" element-list navbar-btn-drop-list"> 
+                            <li  class="Manager1 element-item navbar-btn-drop-item ">
+                                <button  id="Manager1" class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Tour Manager    <i class="fa-thin fa-caret-down fa-beat navbar-icon-drop"></i>
+                                </button>
+                                <ul class="fake-list fake-list-1 element-list">
+                                    <li class="select-item">Manager list of tour </li>
+                                    <li class="select-item">Manage each tour</li>
+                                    <li class="select-item">Manager service tour</li>
+                                    <li class="select-item">Track booking tickets</li>
+                                </ul>
+                            </li>   
+                            
+                            <li class="Manager2 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn ">
+                                    SalesMan    <i class="fa-thin fa-caret-down fa-beat navbar-icon-drop"></i>
+                                </button>
+                                <ul class="fake-list fake-list-2 element-list" >
+                                    <li class="select-item">item2</li>
+                                    <li class="select-item">item2</li>
+                                    <li class="select-item">item2</li>
+                                </ul>
+                            </li>
+                            <li class="Manager3 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Visa  <i class="fa-thin fa-caret-down fa-beat navbar-icon-drop"></i>
+                                </button>
+                                <ul class="fake-list fake-list-3 element-list">
+                                    <li class="select-item">item3</li>
+                                    <li class="select-item">item3</li>
+                                    <li class="select-item">item3</li>
+                                </ul>
+                            </li>
+                            <li class="Manager4 element-item navbar-btn-drop-item ">
+                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
+                                    Accountant     <i class="fa-thin fa-caret-down fa-beat navbar-icon-drop"></i>
+                                </button>
+                                <ul class="fake-list fake-list-4 element-list">
+                                    <li class="select-item">item4</li>
+                                    <li class="select-item">item4</li>
+                                    <li class="select-item">item4</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right">
+                        <a class="href-a" href="#"><button class="btn">LOGIN</button></a>
+                        <a class="href-a" href="#"><button class="btn">SIGNUP</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER COMPONENT END  -->
+    <main class="container">
+        <div class="main__content">
+            <form action="eachTour.html" method="" enctype="multipart/form-data" class="page__form">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="page__form--info">
+                            <div class="page__form--info-bg" style="background-image:url(../assets/img/bg-form-info-2.jpg) ;"></div>
+                            <div class="form__info--content">
+                                <div class="form__info--content-img">
+                                    <img id="info__img--tour" src="../assets/img/tourist-bg.jpg" alt="" class="info__img--tour">
+                                    <input type="file" hidden id="content__img--change">
+                                    <label for="content__img--change" class="content__img--change">
+                                        <i class="fa-regular fa-pen content__img--change-icon"></i>
+                                        <!-- <FontAwesomeIcon icon="fa-regular fa-pen" /> -->
+                                    </label>
+                                </div>
+                                <div class="form__info--content-detail">
+                                    <input class="info__content--detail-title-input" value="Du lịch 4 ngày 3 đêm" />
+                                    <span class="info__content--detail-location">
+                                        <i class="fa-light fa-earth-asia detail__location--icon"></i> :
+                                        <!-- <FontAwesomeIcon icon="fa-light fa-earth-asia" /> -->
+                                        <input class="detail__location--title-input" value="Hà Nội" /> -
+                                        <input class="detail__location--title-input" value="Osaka" />
+                                    </span>
+                                    <span class="info__content--detail-brand-plane">
+                                        <i class="fa-light fa-plane-up detail__brand-plane--icon"></i>:
+                                        <!-- <FontAwesomeIcon icon="fa-light fa-plane-up" /> -->
+                                        <img src="../assets/img/vietject-air.png" alt="" class="content__detail--img show__item--img">
+                                        <img src="../assets/img/vietnamairlines.png" alt="" class="content__detail--img show__item--img">
+                                    </span>
+
+                                </div>
+                            </div>
+                            <div class="flex f-row page__form--info-edit">
+                                <button class="form__info--edit-btn">Lưu</button>
+                                <button class="form__info--edit-btn active">Sửa</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="page__form--content">
+                            <div class="row m-0">
+                                <div class="col-lg-12">
+                                    <div class="page__form--content-item">
+                                        <input type="checkbox" id="content__item--headding-1" hidden class="item__heading--scroll">
+                                        <label for="content__item--headding-1" class="content__item--headding">
+                                            <div class="content__item--headding-left">4N3D-VNT-A</div>
+                                            <div class="content__item--headding-midle">
+                                                <i class="fa-light fa-calendar-days"></i>:
+                                                <!-- <FontAwesomeIcon icon="fa-light fa-calendar-days" /> -->
+                                                <span class="color-white">
+                                                    02/04/2023 - 06/04/2023</span>
+                                            </div>
+                                            <div class="content__item--headding-right">
+                                                <i class="fa-sharp fa-regular fa-angle-up item__headding--right-icon"></i>
+                                                <!-- <FontAwesomeIcon icon="fa-sharp fa-regular fa-angle-up" /> -->
+                                            </div>
+                                        </label>
+                                        <div class="content__item--info">
+                                            <div class="flex f-row jus-content-between">
+                                                <div class="content__item--info-title color-text">
+                                                    Sự kiện: <span class="color-danger">Lễ 30 - 4</span>
+                                                </div>
+                                                <a href="../docs/chuong_trinh_du_lich.docx" download="chuong_trinh_du_lich.docx" class="content__doc--link">
+                                                    <i class="fa-light fa-download"></i>
+                                                    <!-- <FontAwesomeIcon icon="fa-light fa-download" /> -->
+                                                    Tải xuống file docx
+                                                </a>
+                                            </div>
+                                            <div class="content__item--info-state i-block bg-color-secondary-color-no-hover b-box m-t-3">
+                                                <div class="flex-inline info__state--color">
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-maximum">
+                                                        </span>
+                                                        <span class="text-sm color-danger">Hành khách tối đa</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-warn">
+                                                        </span>
+                                                        <span class="text-sm color-warn">Số khách đặt vé trước</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-sussces">
+                                                        </span>
+                                                        <span class="text-sm color-sussces">Số khách hiện tại</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-gray">
+                                                        </span>
+                                                        <span class="text-sm color-gray">Còn trống</span>
+                                                    </div>
+                                                </div>
+                                                <div class="info__state--user flex jus-content-around align-item-center p-2" >
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-danger text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-danger">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-warn text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-warn">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-sussces text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-sussces">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-gray text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-gray">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="content__item--info-group ">
+                                                <span class="item__info--group-title">
+                                                    Giá vé lẻ
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title">
+                                                    Giá vé combo
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title ">
+                                                    Thông tin 
+                                                </span>
+                                                <div class="item__info--group-content flex-inline f-row">
+                                                    <a href="#" class="content__doc--link">
+                                                        <i class="fa-light fa-file"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-file" /> -->
+                                                        DS Vé đặt trước
+                                                    </a>
+                                                    <a href="#" class="content__doc--link p-l-2">
+                                                        <i class="fa-sharp fa-light fa-circle-info"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-sharp fa-light fa-circle-info" /> -->
+                                                        Chi tiết tour
+                                                    </a>
+                                                    <a href="#" class="content__doc--detele p-l-2">
+                                                        <i class="fa-light fa-trash-can"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-trash-can" />-->
+                                                        Xóa tour
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="page__form--content-item">
+                                        <input type="checkbox" id="content__item--headding-2" hidden class="item__heading--scroll">
+                                        <label for="content__item--headding-2" class="content__item--headding">
+                                            <div class="content__item--headding-left">4N3D-VNT-A</div>
+                                            <div class="content__item--headding-midle">
+                                                <i class="fa-light fa-calendar-days"></i>:
+                                                <!-- <FontAwesomeIcon icon="fa-light fa-calendar-days" /> -->
+                                                <span class="color-white">
+                                                    02/04/2023 - 06/04/2023</span>
+                                            </div>
+                                            <div class="content__item--headding-right">
+                                                <i class="fa-sharp fa-regular fa-angle-up item__headding--right-icon"></i>
+                                                <!-- <FontAwesomeIcon icon="fa-sharp fa-regular fa-angle-up" /> -->
+                                            </div>
+                                        </label>
+                                        <div class="content__item--info">
+                                            <div class="flex f-row jus-content-between">
+                                                <div class="content__item--info-title color-text">
+                                                    Sự kiện: <span class="color-danger">Lễ 30 - 4</span>
+                                                </div>
+                                                <a href="../docs/chuong_trinh_du_lich.docx" download="chuong_trinh_du_lich.docx" class="content__doc--link">
+                                                    <i class="fa-light fa-download"></i>
+                                                    <!-- <FontAwesomeIcon icon="fa-light fa-download" /> -->
+                                                    Tải xuống file docx
+                                                </a>
+                                            </div>
+                                            <div class="content__item--info-state i-block bg-color-secondary-color-no-hover b-box m-t-3">
+                                                <div class="flex-inline info__state--color">
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-maximum">
+                                                        </span>
+                                                        <span class="text-sm color-danger">Hành khách tối đa</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-warn">
+                                                        </span>
+                                                        <span class="text-sm color-warn">Số khách đặt vé trước</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-sussces">
+                                                        </span>
+                                                        <span class="text-sm color-sussces">Số khách hiện tại</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-gray">
+                                                        </span>
+                                                        <span class="text-sm color-gray">Còn trống</span>
+                                                    </div>
+                                                </div>
+                                                <div class="info__state--user flex jus-content-around align-item-center p-2" >
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-danger text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-danger">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-warn text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-warn">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-sussces text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-sussces">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-gray text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-gray">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="content__item--info-group ">
+                                                <span class="item__info--group-title">
+                                                    Giá vé lẻ
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title">
+                                                    Giá vé combo
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title ">
+                                                    Thông tin 
+                                                </span>
+                                                <div class="item__info--group-content flex-inline f-row">
+                                                    <a href="#" class="content__doc--link">
+                                                        <i class="fa-light fa-file"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-file" /> -->
+                                                        DS Vé đặt trước
+                                                    </a>
+                                                    <a href="#" class="content__doc--link p-l-2">
+                                                        <i class="fa-sharp fa-light fa-circle-info"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-sharp fa-light fa-circle-info" /> -->
+                                                        Chi tiết tour
+                                                    </a>
+                                                    <a href="#" class="content__doc--detele p-l-2">
+                                                        <i class="fa-light fa-trash-can"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-trash-can" />-->
+                                                        Xóa tour
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="page__form--content-item">
+                                        <input type="checkbox" id="content__item--headding-3" hidden class="item__heading--scroll">
+                                        <label for="content__item--headding-3" class="content__item--headding">
+                                            <div class="content__item--headding-left">4N3D-VNT-A</div>
+                                            <div class="content__item--headding-midle">
+                                                <i class="fa-light fa-calendar-days"></i>:
+                                                <!-- <FontAwesomeIcon icon="fa-light fa-calendar-days" /> -->
+                                                <span class="color-white">
+                                                    02/04/2023 - 06/04/2023</span>
+                                            </div>
+                                            <div class="content__item--headding-right">
+                                                <i class="fa-sharp fa-regular fa-angle-up item__headding--right-icon"></i>
+                                                <!-- <FontAwesomeIcon icon="fa-sharp fa-regular fa-angle-up" /> -->
+                                            </div>
+                                        </label>
+                                        <div class="content__item--info">
+                                            <div class="flex f-row jus-content-between">
+                                                <div class="content__item--info-title color-text">
+                                                    Sự kiện: <span class="color-danger">Lễ 30 - 4</span>
+                                                </div>
+                                                <a href="../docs/chuong_trinh_du_lich.docx" download="chuong_trinh_du_lich.docx" class="content__doc--link">
+                                                    <i class="fa-light fa-download"></i>
+                                                    <!-- <FontAwesomeIcon icon="fa-light fa-download" /> -->
+                                                    Tải xuống file docx
+                                                </a>
+                                            </div>
+                                            <div class="content__item--info-state i-block bg-color-secondary-color-no-hover b-box m-t-3">
+                                                <div class="flex-inline info__state--color">
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-maximum">
+                                                        </span>
+                                                        <span class="text-sm color-danger">Hành khách tối đa</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-warn">
+                                                        </span>
+                                                        <span class="text-sm color-warn">Số khách đặt vé trước</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-sussces">
+                                                        </span>
+                                                        <span class="text-sm color-sussces">Số khách hiện tại</span>
+                                                    </div>
+                                                    <div class="flex f-row align-item-center p-r-4">
+                                                        <span class="color color-gray">
+                                                        </span>
+                                                        <span class="text-sm color-gray">Còn trống</span>
+                                                    </div>
+                                                </div>
+                                                <div class="info__state--user flex jus-content-around align-item-center p-2" >
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-danger text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-danger">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-warn text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-warn">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-sussces text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-sussces">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-inline f-column align-item-center ">
+                                                        <div class="color-gray text-xl text-w-lg">
+                                                            58
+                                                        </div>
+                                                        <div class="color-gray">
+                                                            <i class="fa-light fa-user text-xl"></i>
+                                                            <!-- <FontAwesomeIcon icon="fa-light fa-user" /> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="content__item--info-group ">
+                                                <span class="item__info--group-title">
+                                                    Giá vé lẻ
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title">
+                                                    Giá vé combo
+                                                </span>
+                                                <div class="item__info--group-content">
+                                                    <div class="flex f-row">
+                                                        <div class="flex f-column align-item-center jus-content-around">
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-departure"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-departure" /> -->
+                                                                    <span class="color-text">22:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ23421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex f-row">
+                                                                <div>
+                                                                    <i class="fa-light fa-plane-arrival"></i>:
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-plane-arrival" /> -->
+                                                                    <span class="color-text">04:30</span>
+                                                                </div>
+                                                                <img src="../assets/img/vietject-air.png" alt="" class="show__item--img">
+                                                                <div class="block">
+                                                                    <i class="fa-light fa-ticket-airline"></i>
+                                                                    <!-- <FontAwesomeIcon icon="fa-light fa-ticket-airline" /> -->
+                                                                    <span>VJ34421-ERE</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p-l-8">
+                                                            <span class="text-lg text-w-bold color-danger">20.000.000 VND</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="i-block b-box bg-color-secondary-color-no-hover m-t-4">
+                                                        <span class="color-seconndary text-w-bold">Bao gồm</span>
+                                                        <ul class="flex f-column">
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                                            </li>
+                                                            <li class="p-t-3 text-w-md color-seconndary">
+                                                                <i class="fa-regular fa-scrubber"></i>
+                                                                <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                                                <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content__item--info-group">
+                                                <span class="item__info--group-title ">
+                                                    Thông tin 
+                                                </span>
+                                                <div class="item__info--group-content flex-inline f-row">
+                                                    <a href="#" class="content__doc--link">
+                                                        <i class="fa-light fa-file"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-file" /> -->
+                                                        DS Vé đặt trước
+                                                    </a>
+                                                    <a href="#" class="content__doc--link p-l-2">
+                                                        <i class="fa-sharp fa-light fa-circle-info"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-sharp fa-light fa-circle-info" /> -->
+                                                        Chi tiết tour
+                                                    </a>
+                                                    <a href="#" class="content__doc--detele p-l-2">
+                                                        <i class="fa-light fa-trash-can"></i>
+                                                        <!-- <FontAwesomeIcon icon="fa-light fa-trash-can" />-->
+                                                        Xóa tour
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="inner-footer">
+                    <div class="footer-left col-lg-6 col-sm-6 ">
+                        <div class="footer-left-btn-grouph">
+                           <span class="footer-link-text">
+                                <a class="href-a">AboutUS</a>
+                           </span> 
+                           <span class="footer-link-text">
+                                <a class="href-a">License</a>
+                           </span> 
+                           <span class="footer-link-text">
+                                <a class="href-a">IDX Talent</a>
+                           </span>
+                        </div>
+                    </div>
+                    <div class="footer-right col-lg-6 col-sm-6 ">
+                        <span class="footer-right-text">
+                            <a class="footer-right-link-text">@2023, made with by <span class="name-idx-team">IDX Talent</span> team</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
