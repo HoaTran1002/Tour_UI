@@ -14,6 +14,35 @@
     --color-sussces:rgb(0, 183, 0);
     --color-gray:#717171;
 }
+/* Loading Logo Start */
+.page__loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fcfdfd;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    z-index: 10;
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+.page__loading.fade-out{
+    opacity: 0;
+    z-index: -100;
+    background-color: transparent;
+}
+.page__loading--content{
+    height: 200px;
+    width: 200px;
+}
+.page__loading--content-img{
+    height: 100%;
+    width: 100%;
+}
+/* Loading Logo End */
 /* background-color */
 .bg-color-green-opacity{
     background-color: #15a599f7;
@@ -657,3 +686,9 @@ li{
       }
 }
 /* Animation Style End */
+
+/* Cursor Style Start */
+.pointer{
+    cursor: pointer;
+}
+/* Cursor Style End */

@@ -27,69 +27,151 @@
 
 </head>
 <body>
+    <!-- LOADING PAGE -->
+    <section id="page__loading" class="page__loading">
+        <div class="page__loading--content">
+            <img src="../assets/img/loading-logo.gif" alt="loading-logo" class="page__loading--content-img">
+        </div>
+    </section>
+    <!-- HEADER COMPONENT START  -->
     <header class="header-wrapper">
-        <nav>
-            <div class="container ">
-                <div class="navbar-content row">
-                    <div class="navbar-left">
-                        <a class="href-a" href="#">
-                            <img class="navbar-icon-image" src="../assets/img/background_travel.avif" alt="DashBoard icon">
-                        </a>
-                    </div>
-                    <div class="navbar-center">
-                        <ul class=" element-list navbar-btn-drop-list"> 
-                            <li  class="Manager1 element-item navbar-btn-drop-item ">
-                                <button  id="Manager1" class="color-white bg-color-green-opacity btn-none-out-line btn">
-                                    Tour Manager   
-                                </button>
-                                <ul class="fake-list fake-list-1 element-list">
-                                    <li class="select-item">Manager list of tour </li>
-                                    <li class="select-item">Manage each tour</li>
-                                    <li class="select-item"><a href="../html/InformationService.html">Quản lý thông tin dịch vụ</a></li>
-                                    <li class="select-item">Track booking tickets</li>
-                                </ul>
-                            </li>   
-                            
-                            <li class="Manager2 element-item navbar-btn-drop-item ">
-                                <button class="color-white bg-color-green-opacity btn-none-out-line btn ">
-                                    SalesMan   
-                                </button>
-                                <ul class="fake-list fake-list-2 element-list" >
-                                    <li class="select-item">item2</li>
-                                    <li class="select-item">item2</li>
-                                    <li class="select-item">item2</li>
-                                </ul>
-                            </li>
-                            <li class="Manager3 element-item navbar-btn-drop-item ">
-                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
-                                    Visa 
-                                </button>
-                                <ul class="fake-list fake-list-3 element-list">
-                                    <li class="select-item">item3</li>
-                                    <li class="select-item">item3</li>
-                                    <li class="select-item">item3</li>
-                                </ul>
-                            </li>
-                            <li class="Manager4 element-item navbar-btn-drop-item ">
-                                <button class="color-white bg-color-green-opacity btn-none-out-line btn">
-                                    Accountant    
-                                </button>
-                                <ul class="fake-list fake-list-4 element-list">
-                                    <li class="select-item">item4</li>
-                                    <li class="select-item">item4</li>
-                                    <li class="select-item">item4</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="navbar-right">
-                        <a class="href-a" href="#"><button class="btn">LOGIN</button></a>
-                        <a class="href-a" href="#"><button class="btn">SIGNUP</button></a>
+        <div class="container">
+            <div class="navbar-content">
+                <div class="navbar-left flex f-row jus-content-between">
+                    <a class="href-a" href="#">
+                        <img class="navbar-icon-image" src="../assets/img/logo-page-3.png" alt="DashBoard icon">
+                    </a>
+                </div>
+                <div class="navbar-center">
+                    <ul class=" element-list navbar-btn-drop-list"> 
+                        <li class="element-item navbar-btn-drop-item">
+                            <span class="color-seconndary element-item-name">
+                                Tour Manager
+                                <i class="fa-sharp fa-solid fa-chevron-down navbar-icon-drop"></i>
+                            </span>
+                            <ul class="fake-list element-list">
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh Sách tour  
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách các tour
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách dịch vụ tour 
+                                    </a>
+                                </li>
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách quản booking tickets 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="element-item navbar-btn-drop-item">
+                            <span class="color-seconndary element-item-name">
+                                Tour Manager
+                                <i class="fa-sharp fa-solid fa-chevron-down navbar-icon-drop"></i>
+                            </span>
+                            <ul class="fake-list element-list">
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh Sách tour  
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách các tour
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách dịch vụ tour 
+                                    </a>
+                                </li>
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách quản booking tickets 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="element-item navbar-btn-drop-item">
+                            <span class="color-seconndary element-item-name">
+                                Tour Manager
+                                <i class="fa-sharp fa-solid fa-chevron-down navbar-icon-drop"></i>
+                            </span>
+                            <ul class="fake-list element-list">
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh Sách tour  
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách các tour
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách dịch vụ tour 
+                                    </a>
+                                </li>
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách quản booking tickets 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="element-item navbar-btn-drop-item">
+                            <span class="color-seconndary element-item-name">
+                                Tour Manager
+                                <i class="fa-sharp fa-solid fa-chevron-down navbar-icon-drop"></i>
+                            </span>
+                            <ul class="fake-list element-list">
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh Sách tour  
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách các tour
+                                    </a>
+                                </li>
+                                    <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách dịch vụ tour 
+                                    </a>
+                                </li>
+                                <li class="select-item">
+                                    <a href="#" class="select-item-link">
+                                        Danh sách quản booking tickets 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <a class="href-a" href="#">
+                        Log In
+                    </a>
+                    <div class="flex f-row m-l-5 b-box bg-color-secondary-color-no-hover pointer">
+                        <!-- <FontAwesomeIcon icon="fa-regular fa-equals" /> -->
+                        <i class="fa-regular fa-equals color-seconndary"></i>
+                        <span class="color-seconndary text-w-lg">Menu</span>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
+    <!-- HEADER COMPONENT END  -->
     <main class="container ">
         <div class="main-wrapper">
             <div class="content-nav-tool">
@@ -276,7 +358,7 @@
                                 <i class="fa-light fa-caret-left"></i>
                             </a>
                         </li>
-                        <li class="page__pagination--item">
+                        <li class="page__pagination--item active">
                             <a href="" class="pagination__item--link">
                                 1
                             </a>
@@ -335,5 +417,6 @@
             </div>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>
