@@ -65,6 +65,7 @@ body {
     box-sizing: border-box;
     border: 1px solid var(--primary-secondary-color);
     border-radius: 4px;
+    margin: 0 4px;
 }
 .btn-auto:hover{
     color: #fff;
