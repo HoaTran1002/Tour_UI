@@ -22,7 +22,7 @@
     height: 60px;
     font-weight: 500;
     font-family: Georgia;
-    background-color: orange;
+    background-color: var(--primary-secondary-color);
     color: #fff;
     border-radius: 8px;
 
@@ -54,7 +54,7 @@
 }
 .style-table-head {
     font-size: 16px;
-    background-color: #0077b6;
+    background-color: var(--primary-secondary-color);
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -70,7 +70,7 @@
   }
   .style-table-head-trip {
     font-size: 16px;
-    background-color: #0077b6;
+    background-color: var(--primary-secondary-color);
     color: #ffffff;
     text-align: center;
     padding: 10px;

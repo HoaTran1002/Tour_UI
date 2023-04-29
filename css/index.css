@@ -85,7 +85,7 @@
     transition: all linear 0.3s;
 }
 .select-item-link:hover{
-    background-color: var(--secondary-color);
+
     color: white;
 }
 .background-login-image{
@@ -256,7 +256,6 @@
 }
 .inner-footer{
     width: 100%;
-    display: flex;
     padding: 40px 0;
 }
 .footer-left{
