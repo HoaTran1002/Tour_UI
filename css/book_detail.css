@@ -109,3 +109,29 @@
   }
 
 
+  .slider {
+    border: 4px solid var(--primary-secondary-color);
+    margin: 20px auto;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    width: 85%;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+  }
+  .slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+    padding: 4px;
+    margin:  0px 3px;
+    
+  }
+  .slider-img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    border-radius: 8px;
+  }
