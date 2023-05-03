@@ -1,0 +1,3 @@
+.add__saleMan:checked ~ .add__saleMan-info{
+    display: block !important;
+}
