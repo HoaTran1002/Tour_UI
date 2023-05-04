@@ -179,9 +179,204 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="flex f-column b-box">
-                            <label for="">Mã tour</label>
-                            <input type="text" >
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Mã tour</label>
+                                    <input type="text" class="input-text-set-style">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Tên tour</label>
+                                    <input type="text" class="input-text-set-style">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Lộ trình bắt đầu</label>
+                                    <input type="text" class="input-text-set-style">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Lộ trình kết thúc</label>
+                                    <input type="text" class="input-text-set-style">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Ngày bắt đầu</label>
+                                    <input type="date" class="input-text-set-style">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Ngày kết thúc</label>
+                                    <input type="date" class="input-text-set-style">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Giờ bắt đầu</label>
+                                    <input type="time" class="input-text-set-style">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Giờ kết thúc</label>
+                                    <input type="time" class="input-text-set-style">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Phương tiện khác</label>
+                                    <select name="" id="">
+                                        <option value="">Máy bay</option>
+                                        <option value="">Xe du lịch</option>
+                                        <option value="">Xe dịch vụ tư nhân</option>    
+                                        <option value="">-- khác --</option>    
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Chọn phương tiện nào thì xuất ra phương tiện đó -->
+                            <div class="col-lg-6">
+                                <div class="flex f-column b-box">
+                                    <label for="" class="color-seconndary text-w-md">Hãng phương tiện</label>
+                                    <select name="" id="">
+                                        <option value="">Vietject</option>
+                                        <option value="">Phương trang</option>
+                                        <option value="">thành bưởi</option>    
+                                        <option value="">-- khác --</option>    
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Nhấn vào sẽ thêm gói vé mới -->
+                            <div class="i-block b-box bg-color-secondary-color color-white m-t-2 m-b-2 pointer">
+                                <i class="fa-regular fa-plus"></i>
+                                <!-- <FontAwesomeIcon icon="fa-regular fa-plus" /> -->
+                                Thêm gói mới
+                            </div>
+                        </div>
+                        <div class="b-box border-style-secondary m-b-3">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="flex f-column b-box">
+                                        <label for="" class="color-seconndary text-w-md">Giá vé bạn đầu</label>
+                                        <input type="text" class="input-text-set-style">
+                                    </div>
+                                </div>
+                                <!-- Chọn phương tiện nào thì xuất ra phương tiện đó -->
+                                <div class="col-lg-6">
+                                    <div class="flex f-column b-box">
+                                        <label for="" class="color-seconndary text-w-md">Giá vé giảm(hoặc không)</label>
+                                        <input type="text" class="input-text-set-style">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="b-box bg-color-secondary-color-no-hover m-l-3">
+                                    <div class="flex f-row">
+                                        <span class="color-seconndary text-w-bold">Gói bao gồm:</span>
+                                        <div class="b-box bg-color-secondary-color pointer  color-white text-w-bold">
+                                            <i class="fa-regular fa-plus"></i>
+                                            Thêm gói
+                                             <!-- <FontAwesomeIcon icon="fa-regular fa-plus" /> -->
+                                        </div>
+                                    </div>
+                                    <ul class="flex f-column">
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                        </li>
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                        </li>
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b-box border-style-secondary m-b-3">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="flex f-column b-box">
+                                        <label for="" class="color-seconndary text-w-md">Giá vé bạn đầu</label>
+                                        <input type="text" class="input-text-set-style">
+                                    </div>
+                                </div>
+                                <!-- Chọn phương tiện nào thì xuất ra phương tiện đó -->
+                                <div class="col-lg-6">
+                                    <div class="flex f-column b-box">
+                                        <label for="" class="color-seconndary text-w-md">Giá vé giảm(hoặc không)</label>
+                                        <input type="text" class="input-text-set-style">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="b-box bg-color-secondary-color-no-hover m-l-3">
+                                    <div class="flex f-row">
+                                        <span class="color-seconndary text-w-bold">Gói bao gồm:</span>
+                                        <div class="b-box bg-color-secondary-color pointer  color-white text-w-bold">
+                                            <i class="fa-regular fa-plus"></i>
+                                            Thêm gói
+                                             <!-- <FontAwesomeIcon icon="fa-regular fa-plus" /> -->
+                                        </div>
+                                    </div>
+                                    <ul class="flex f-column">
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Vé đi và khứ hồi máy bay</span>
+                                        </li>
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Trọn gói ăn uống, ở lại khách sạn 3 sao</span>
+                                        </li>
+                                        <li class="p-t-3 text-w-md color-seconndary">
+                                            <i class="fa-regular fa-scrubber"></i>
+                                            <!-- <FontAwesomeIcon icon="fa-regular fa-scrubber" /> -->
+                                            <span class="p-l-1">Bao ăn uống khi đi tham quan</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="page__form--info">
+                            <div class="page__form--info-bg" style="background-image:url(../assets/img/bg-form-info-2.jpg) ;"></div>
+                            <div class="form__info--content">
+                                <div class="form__info--content-img">
+                                    <img id="info__img--tour" src="../assets/img/tourist-bg.jpg" alt="" class="info__img--tour">
+                                    <input type="file" hidden id="content__img--change">
+                                    <label for="content__img--change" class="content__img--change">
+                                        <i class="fa-regular fa-pen content__img--change-icon"></i>
+                                        <!-- <FontAwesomeIcon icon="fa-regular fa-pen" /> -->
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="flex f-row page__form--info-edit">
+                                <button type="submit" class="form__info--edit-btn active text-lg">Tạo</button>
+                            </div>
                         </div>
                     </div>
                 </div>

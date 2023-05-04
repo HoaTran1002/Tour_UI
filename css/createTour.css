@@ -1,0 +1,90 @@
+.page__form--info{
+    position: sticky;
+    top: 10px;
+}
+.page__form--info-edit{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.form__info--edit-btn{
+    background-color: var(--color-gray);
+    color: white;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    cursor: default;
+}
+.form__info--edit-btn.active{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+.page__form--info-bg{
+    
+    width: 100%;
+    padding-top: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.page__form--info-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.648);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+.form__info--content{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 45px;
+}
+.form__info--content-img{
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: contain;
+    position: relative;
+}
+.content__img--change{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+.content__img--change-icon{
+    color: var(--secondary-color);
+}
+.info__img--tour{
+    width: 100%;
+    height: 100%;
+}
+.form__info--content-detail::before{
+    content: "";
+    background-color: var(--bg-white);
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
