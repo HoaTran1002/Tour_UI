@@ -14,7 +14,12 @@
     --color-sussces:rgb(0, 183, 0);
     --color-gray:#717171;
 }
-
+/* Link Style Start */
+.link-reset{
+    text-decoration: none;
+    color: var(--text-color);
+}
+/* Link Style End */
   /* Position Style Start */
 .p-sticky{
     position: sticky;
